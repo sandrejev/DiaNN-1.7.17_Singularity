@@ -13,6 +13,7 @@ From: ubuntu:focal
     apt-get update
     apt-get install -y unzip build-essential
     unzip /DiaNN-1.7.17.zip -d /opt
+    rm /DiaNN-1.7.17.zip
     cd /opt/DiaNN-1.7.17/mstoolkit/
     make
 
